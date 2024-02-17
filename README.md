@@ -1,4 +1,4 @@
-# Temperatura
+# Conversor de temperatura
 
 Exercício das aulas de JavaScript ministrado pelo Professor Átila. 
 
