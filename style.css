@@ -1,0 +1,51 @@
+
+body {
+    background-image: url("img/the-beach-3060087_1280.jpg");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+}
+ 
+h1 {
+    font-family: Courier, "Courier New", monospace;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    text-shadow: 10px 0px 10px grey;
+    overflow: hidden;
+    border-right: .10em solid black;
+    white-space: nowrap;
+    margin: 0 auto 60px; 
+    letter-spacing: .15em;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+ 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+ 
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    5% { border-color: black }
+}
+ 
+input[type="text"],
+input[type="number"],
+button {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 20px; 
+}
+
+
+ 
+
+
+ 
